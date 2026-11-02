@@ -1,7 +1,7 @@
 # COAST
 Collateral Assessment for Strokes via Tabulation, a generic framework for collateral scoring for ischemic stroke incidents
 # ISLES-2024 CTA Collateral Labels
-
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 This repository provides ground-truth `MITEFF` and `TAN` scores for leptomeningeal collateral assessment, annotated by two neurologists with 3 and 7 years of experience respectively, on the multimodal [ISLES 2024](https://isles-24.grand-challenge.org/) dataset.
 
 It also provides a script pipeline to (optionally) download the ISLES-2024 stroke CTA dataset, locate each subject's `.nii.gz` volume on disk, join it with the corresponding row from the label CSV, and serialize the result into a ready-to-use manifest (`manifest.pkl`).
