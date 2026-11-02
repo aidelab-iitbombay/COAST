@@ -126,6 +126,8 @@ sample = manifest[1]
 print(sample["cta_path"], sample["MITEFF"], sample["TAN"])
 ```
 
+## 5. Citation
+
 If you use these labels or this code in your research, please cite our paper:
 
 > **COAST: Collateral Assessment for Strokes via Tabulation, a generic framework for collateral scoring in ischemic stroke.**
@@ -140,10 +142,6 @@ If you use these labels or this code in your research, please cite our paper:
   doi     = {xx.xxxx/xxxxx}
 }
 ```
-
-Please also cite the original ISLES 2024 dataset, as described on the [ISLES 2024 challenge page](https://isles-24.grand-challenge.org/).
-
----
 
 ## 6. License
 
