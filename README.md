@@ -125,3 +125,36 @@ with open("manifest.pkl", "rb") as f:
 sample = manifest[1]
 print(sample["cta_path"], sample["MITEFF"], sample["TAN"])
 ```
+
+If you use these labels or this code in your research, please cite our paper:
+
+> **COAST: Collateral Assessment for Strokes via Tabulation, a generic framework for collateral scoring in ischemic stroke.**
+> Author A, Author B, Author C. *Journal/Conference Name*, Year. [DOI/arXiv link]
+
+```bibtex
+@article{coast2026,
+  title   = {COAST: Collateral Assessment for Strokes via Tabulation, a generic framework for collateral scoring in ischemic stroke},
+  author  = {Lastname, Firstname and Lastname, Firstname and Lastname, Firstname},
+  journal = {Journal Name},
+  year    = {2026},
+  doi     = {xx.xxxx/xxxxx}
+}
+```
+
+Please also cite the original ISLES 2024 dataset, as described on the [ISLES 2024 challenge page](https://isles-24.grand-challenge.org/).
+
+---
+
+## 6. License
+
+The collateral labels (`labels.csv`) and the code in this repository are released under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You are free to:
+- **Share**: copy and redistribute the material in any medium or format.
+- **Adapt**: remix, transform, and build upon the material.
+
+Under the following terms:
+- **Attribution**: You must give appropriate credit by citing the paper above, provide a link to the license, and indicate if changes were made.
+- **NonCommercial**: You may not use the material for commercial purposes.
+
+The ISLES 2024 imaging data is **not** redistributed here and remains subject to its own license and terms of use. Please refer to the [Zenodo record](https://zenodo.org/records/17652035) before using it.
